@@ -10,7 +10,7 @@ h1 {
     font-size: 35px;
     /**color: brown;*/
 }
-/**PONER LA IMAGEN DE PERFIL Y LOS ICONOS EN LA INFO PERS*/
+/**Y LOS ICONOS EN LA INFO PERS*/
 
 h2 {
     color: black;
@@ -31,6 +31,10 @@ h2 {
     background-color: rosybrown;
 }
 
+#info {
+    margin-left: -20%;
+}
+
 h3 {
     color: black;
     font-weight: bold;
@@ -41,4 +45,13 @@ h3 {
 li {
     color: darkred;
     font-size: 16px;
+}
+
+.telefono {
+    width: 15px;
+    height: 15px;
+}
+
+.lista {
+    list-style: none;
 }
