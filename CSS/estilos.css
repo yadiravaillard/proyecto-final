@@ -1,16 +1,13 @@
 body {
     background-color: aliceblue;
     font-family: Poppins, sans-serif;
-    /** font-family: Unbounded, cursive; roboto sans-serif*/
 }
 
 h1 {
     color: firebrick;
     font-weight: bold; 
     font-size: 35px;
-    /**color: brown;*/
 }
-/**Y LOS ICONOS EN LA INFO PERS*/
 
 h2 {
     color: black;
@@ -31,10 +28,6 @@ h2 {
     background-color: rosybrown;
 }
 
-#info {
-    margin-left: -20%;
-}
-
 h3 {
     color: black;
     font-weight: bold;
@@ -42,16 +35,38 @@ h3 {
     font-size: 20px;
 }
 
+.lista {
+    list-style: none;
+}
+
 li {
     color: darkred;
     font-size: 16px;
 }
 
-.telefono {
-    width: 15px;
-    height: 15px;
+i {
+    color: black;
 }
 
-.lista {
-    list-style: none;
+.btn {
+    cursor: pointer;
+    color: black; 
+
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+.btnFondo {
+    display: flex;
+    justify-content: right;
+}
+
+.separar {
+    margin-right: 2%;
 }
