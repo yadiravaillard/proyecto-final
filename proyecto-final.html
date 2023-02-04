@@ -10,38 +10,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&family=Unbounded:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="assets/icono.png">
     <script src="https://kit.fontawesome.com/89b34a0a96.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
+    <div id="arb"></div>
+
     <div class="btnFondo">
-        <button class="separar" id="btnOscuro">Modo Oscuro</button>
-        <button id="btnClaro">Modo Claro</button>
+        <button class="btnOscuro" id="btnOscuro">Modo Oscuro</button>
+        <button class="btnClaro" id="btnClaro">Modo Claro</button>
     </div>
-    
-    <div id="arriba"></div>
     
     <h1>Kristin Fowler</h1>
     
-    <div class="imagen"><img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Imágen CV" height = "150 px" width = "150 px" ></div>
-    
+    <div class="imagen"><img src="https://randomuser.me/api/portraits/women/95.jpg" alt="Imágen CV" height = "150 px" width = "150 px" ></div>
+
     <h2>Licenciada en Turismo</h2>
     
     <nav>
-        <a href="#info" class="nav-ancla">Información Personal</a>
-        <a href="#acad" class="nav-ancla">Formación Académica</a>
-        <a href="#comp" class="nav-ancla">Formación Complementaria</a>
-        <a href="#exp" class="nav-ancla">Experiencia</a>
-        <a href="#hab" class="nav-ancla">Habilidades</a>
+        <a href="#info" class="navAncla">Información Personal</a>
+        <a href="#acad" class="navAncla">Formación Académica</a>
+        <a href="#comp" class="navAncla">Formación Complementaria</a>
+        <a href="#exp" class="navAncla">Experiencia</a>
+        <a href="#hab" class="navAncla">Habilidades</a>
     </nav>
     
     <section>
         <h3 id="info">Información Personal</h3>
         <ul>
             <li class="lista"><i class="fa-solid fa-cake-candles"></i> 5/10/1998</li>
-            <li class="lista"><i class="fa-solid fa-location-dot"></i>1544 Fotinia Ave. Córdoba, Córdoba.</li>
+            <li class="lista"><i class="fa-solid fa-location-dot"></i> 1544 Fotinia Ave. Córdoba, Córdoba.</li>
             <li class="lista"><i class="fa-solid fa-phone-volume"></i> (871) 921-5982</li>
-            <li class="lista"><i class="fa-solid fa-envelope"></i>kristin.fowler@ejemplo.com</li>
+            <li class="lista"><i class="fa-solid fa-envelope"></i> kristin.fowler@ejemplo.com</li>
         </ul>
     </section>
 
@@ -49,7 +50,7 @@
         <h3 id="acad">Formación Académica</h3>
         <ul>
             <li>2017-2021 Licenciada en Turismo. Universidad Nacional de Córdoba. Córdoba, Argentina.</li>
-            <li>2012-2016 Bachiller en Ciencias Economicas. IES Las Musas. Córdoba</li>
+            <li>2012-2016 Bachiller en Ciencias Economicas. IES Las Musas. Córdoba, Argentina.</li>
         </ul>
     </section>
     
@@ -67,13 +68,13 @@
     <section>
         <h3 id="exp">Experiencia</h3>
         <ul>
-            <li>2022-Actualidad - Trabajo en ...</li>
-            <li>2021-2022 - Trabajo en el área de atención al cliente en Delfos Agencia de Viajes Mayorista</li>
-            <li>2019 - Trabajo temporal por temporada de verano en el área de recepción del Sheraton Buenos Aires Hotel</li>
+            <li>2022-Actualidad - Trabajo en Kerala Viajes, Agencia de Viajes Minorista.</li>
+            <li>2021-2022 - Trabajo en el área de atención al cliente en Delfos Agencia de Viajes Mayorista.</li>
+            <li>2019 - Trabajo temporal por temporada de verano en el área de recepción del Sheraton Buenos Aires Hotel.</li>
         </ul>
     </section>
 
-    <button class="btn" id="btnVerMas">Ver más</button>
+    <button class="btnVerMas" id="btnVerMas">Ver Más</button>
 
     <section class="ocultar" id="seccionOculta">
         <h3 id="hab">Habilidades</h3>
@@ -90,8 +91,7 @@
             <li>Creatividad</li>
             <li>Planificación de visitas guiadas</li>
             </ul>
-        <!--<div id="seccionOculta"> </div>-->
-        <a href="#arriba" class="nav-ancla">Volver arriba</a>
+        <a href="#arb" class="navAncla">Volver al inicio</a>
     </section>
     <script src="js/script.js"></script>
 </body>

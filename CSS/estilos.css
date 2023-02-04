@@ -6,7 +6,8 @@ body {
 h1 {
     color: firebrick;
     font-weight: bold; 
-    font-size: 35px;
+    font-size: 50px;
+    margin-top: 10px;
 }
 
 h2 {
@@ -16,7 +17,7 @@ h2 {
     text-decoration: underline;
 }
 
-.nav-ancla {
+.navAncla {
     display: inline-block;
     background-color: salmon;
     color: white;
@@ -24,7 +25,7 @@ h2 {
     padding: 5px;
     text-decoration: none;
 }
-.nav-ancla:hover {
+.navAncla:hover {
     background-color: rosybrown;
 }
 
@@ -48,10 +49,15 @@ i {
     color: black;
 }
 
-.btn {
+.btnVerMas {
     cursor: pointer;
     color: black; 
-
+    border: 2px solid, black;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 4px;
+    background-image: linear-gradient(to right, #fe8267, #e67ca7);
 }
 
 .ocultar {
@@ -65,8 +71,32 @@ i {
 .btnFondo {
     display: flex;
     justify-content: right;
+    margin-top: 30px;
 }
 
-.separar {
+.btnOscuro {
     margin-right: 2%;
+    border: 2px solid black;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: black;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #e46cda, #566e9d);
+}
+
+.btnClaro {
+    border: 2px solid black;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: black;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #ffcae3, #fc5997);
+}
+
+.btnFondo:hover {
+    background-position: right;
 }
